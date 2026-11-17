@@ -8,9 +8,9 @@ namespace Exercicio3
     {
         public string titulo;
         public string autor;
-        public int paginas;
+        public uint paginas;
 
-        public Livro(string titulo, string autor, int paginas)
+        public Livro(string titulo, string autor, uint paginas)
         {
             this.titulo = titulo;
             this.autor = autor;
@@ -25,7 +25,7 @@ namespace Exercicio3
         {
             return this.autor;
         }
-        public int GetPaginas()
+        public uint GetPaginas()
         {
             return this.paginas;
         }
